@@ -51,7 +51,7 @@ function manipulaDados(operacao, controle) {
         if (peca.value >= 1) {
             peca.value = parseInt(peca.value) - 1
         } else {
-            alert("Não é possível deixar o atributo braço com valor negativo.")
+            alert("Não é possível deixar o atributo com valor negativo.")
         }
     }
 }  
